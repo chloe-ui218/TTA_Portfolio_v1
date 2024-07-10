@@ -19,7 +19,7 @@
             text-align: justify;
             padding: 0px 100px 0px 30px;
         }
-        .div-1 h2 span{
+        .div-1 h1 span{
             color: #7E74F1; 
         }
         .div-1 p{
@@ -29,10 +29,24 @@
         .div-2{
             width: 40%;
             display: flex;
-            justify-content: center;
+            justify-content: center ;
         }
         .div-2 img{
             border-radius: 8px;
+        }
+
+        #skills-section{
+            text-align: center;
+        }
+        .skills-container{
+            display: flex;
+            justify-content: center;
+        }
+        .skill-card{
+            background-color: #ffffff;
+            color: #000000;
+            width: 30%;
+            margin: auto 15px;
         }
        </style>
     </head>
@@ -41,7 +55,7 @@
             <div class="container">
                 <div class="same-margin div-1">
                     <div class="content">
-                        <h2>John <span>Doe.</span></h2>
+                        <h1>John <span>Doe.</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi a inventore t
                             otam distinctio, consectetur rem maiores harum ut magnam dolor. Odio ad quas non 
                             illum. Nobis ratione dolorem deserunt. Nam!</p>
@@ -50,6 +64,37 @@
                 <div class="same-margin div-2">
                     <img src="./male.jpg" height="340" width="300" alt="user image">
                 </div>
+            </div>
+        </section>
+
+        <section id="skills-section">
+            <h1>Specialized In</h1>
+            <div class="skills-container">
+                <div class="skill-card skill-1">
+                    <h2>Skill 1</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Alias, est voluptate placeat ratione iste nulla esse qui odit quaerat ipsam quae blanditiis 
+                        incidunt iusto dignissimos enim quia provident quisquam perspiciatis?
+                    </p>
+            </div>
+            <div class="skill-card skill-2">
+                <h2>skill 2</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Alias, est voluptate placeat ratione iste nulla esse qui odit quaerat ipsam quae blanditiis 
+                    incidunt iusto dignissimos enim quia provident quisquam perspiciatis? 
+                </p>
+            </div>
+            <div class="skill-card skill-3">
+                <h2>skill 3</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Alias, est voluptate placeat ratione iste nulla esse qui odit quaerat ipsam quae blanditiis 
+                        incidunt iusto dignissimos enim quia provident quisquam perspiciatis?
+                </p>
+            </div>
+        </section>
             </div>
         </section>
     </body>
