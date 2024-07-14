@@ -86,18 +86,30 @@
         .work-content button{
             color: gray;
             background-color: #000000;
-            border: .5pxpx solid gray;
+            /* border: .5pxpx solid gray; */
             margin: 10px 0px;
             padding: 10px 15px;
             cursor: pointer;
-            border-radius: 3px;
+           /* border-radius: 3px; */
             border: none;
         }
 
         #testimonials-section{
-
             text-align: center;
             margin: 7px 0px;
+        }
+        .test-container{
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+        }
+        .test-content{
+            width: 50%;
+            margin: auto;
+
+        }
+        .test-img img{
+            border-radius: 50%;
         }
        </style>
     </head>
@@ -179,16 +191,15 @@
        <section id="testimonials-section">
         <h1>Testimonials</h1>
          <div class="test-container">
-            <div class="test-content">
+            <div class="test-content test-words">
                 <h1>John Doe</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste consectetur cum autem. 
                     Consequuntur, totam incidunt delectus cum ullam perferendis 
                     sapiente nobis laborum, aspernatur beatae obcaecati! Id facere ex nobis ducimus.</p>
                     <button>Read More></button>
             </div>
-            <div class="test-content">
+            <div class="test-content test-img">
                 <img src="./male.jpg" width="300" height="300" alt="testimonial image">
-
             </div>
          </div>
        </section>
